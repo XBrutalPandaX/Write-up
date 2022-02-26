@@ -1,5 +1,4 @@
 # Brooklyn99 CTF
-export ip=10.10.15.26
 ## Enumeration
 Going to the site and cheching the html we can see this 
 ```html 
