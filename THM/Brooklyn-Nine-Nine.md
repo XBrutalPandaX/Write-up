@@ -5,8 +5,10 @@ Going to the site and checking the html we can see this
 ```html 
 <!-- Have you ever heard of steganography? -->
 ```
-**Intersting**   
-There is 2 intended way of rooting the box. 
+Intersting  
+There is 2 intended way of rooting the box.   
+
+
 ------------
 # Method one
 ### Nmap scan 
@@ -82,13 +84,12 @@ root
 root.txt
 # cat root.txt
 ```
->-- Creator : Fsociety2006 --
->Congratulations in rooting Brooklyn Nine Nine
->Here is the flag: 63a9f0ea*********96b649e85481845
->
->Enjoy!!
+> -- Creator : Fsociety2006 --
+> Congratulations in rooting Brooklyn Nine Nine
+> Here is the flag: 63a9f0ea*********96b649e85481845
+> 
+> Enjoy!!
 
-### Forgot the user flag but here it is 
 ----------------
 # Method 2
 ## Steganography
