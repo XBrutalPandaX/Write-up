@@ -37,7 +37,7 @@ ftp> get note_to_jake.txt
 ```
 We can download the text file to your machine through get. (you can also use mget command)
 The note we found is as follow
-> From Amy,
+> From Amy,  
 > Jake please change your password. It is too weak and holt will be mad if someone hacks into the nine nine
 
 This might come in handy knowing jake ```"Detective Jake Peralta(holts voice)"``` uses weak password :).
@@ -84,7 +84,7 @@ root.txt
 # cat root.txt
 ```
 > -- Creator : Fsociety2006 --
-> Congratulations in rooting Brooklyn Nine Nine
+> Congratulations in rooting Brooklyn Nine Nine  
 > Here is the flag: 63a9f0ea*********96b649e85481845
 > 
 > Enjoy!!
