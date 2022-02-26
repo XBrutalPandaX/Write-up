@@ -37,9 +37,8 @@ ftp> get note_to_jake.txt
 ```
 We can download the text file to your machine through get. (you can also use mget command)
 The note we found is as follow
->From Amy,
-
->Jake please change your password. It is too weak and holt will be mad if someone hacks into the nine nine
+> From Amy,
+> Jake please change your password. It is too weak and holt will be mad if someone hacks into the nine nine
 
 This might come in handy knowing jake ```"Detective Jake Peralta(holts voice)"``` uses weak password :).
 
