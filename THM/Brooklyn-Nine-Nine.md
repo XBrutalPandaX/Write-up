@@ -83,11 +83,7 @@ root
 root.txt
 # cat root.txt
 ```
-> -- Creator : Fsociety2006 --
-> Congratulations in rooting Brooklyn Nine Nine  
-> Here is the flag: 63a9f0ea*********96b649e85481845
-> 
-> Enjoy!!
+
 
 ----------------
 # Method 2
