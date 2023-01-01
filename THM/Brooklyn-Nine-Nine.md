@@ -177,5 +177,5 @@ root
 # 
 ````
 
-We have found both ways to root the box. 
+We have found both ways to root the box.   
 --------
