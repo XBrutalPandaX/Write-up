@@ -58,7 +58,7 @@ Lets GET them and see what happens.
 
 ## Lock.txt
 This text file has what looks like some kind of credential, but to what? Lets try them on SSH since thats another open port.  
-Note: We also found another text file on the ftp with a note 
+Note: We also found another text file on the ftp with a note     
 1.) Protect Vicious.    
 2.) Plan for Red Eye pickup on the moon.    
 	-lin
